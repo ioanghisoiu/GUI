@@ -5,6 +5,27 @@ local lpg = gui:CreateCategory("Delta - Blox Fruits")
 
 lpg:CreateButton("Blox fruits",function() loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperIkka/Main/main/BLCKHUB", true))()
 lpg:CreateButton("Bedwars",function() loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
-lpg:CreateButton("The Survival game",function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ioanghisoiu/the-survival-game/main/test.txt?token=GHSAT0AAAAAACBT26W3YAFFAMESM3AYXBKEZCABQMQ))()
-lpg:CreateButton("Build a boat for treasure),function() loadstring("https://raw.githubusercontent.com/ioanghisoiu/desktop-tutorial/main/build%20a%20boat.lua?token=GHSAT0AAAAAACBT26W3HKLU7LIZQ6FBLMJGZCABZNA))()
-lpg:CreateButton("Super power fighting Simulator",function() loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/ExtremeAntonis/Roblox-Scripts/main/Super-Power-Fighting-Simulator-Obfuscated.lua"))()", true))()
+lpg:CreateButton("The Survival game",function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ioanghisoiu/the-survival-game/main/test.txt?token=GHSAT0AAAAAACBT26W3YAFFAMESM3AYXBKEZCABQMQ"))()
+lpg:CreateButton("Build a boat for treasure"function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ioanghisoiu/desktop-tutorial/main/build%20a%20boat.lua?token=GHSAT0AAAAAACBT26W3HKLU7LIZQ6FBLMJGZCABZNA"))()
+lpg:CreateButton("Super power fighting Simulator",function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ExtremeAntonis/Roblox-Scripts/main/Super-Power-Fighting-Simulator-Obfuscated.lua", true))()
+
+
+local req = (syn and syn.request) or (http and http.request) or http_request or request
+
+req(
+   {
+       Url = "http://127.0.0.1:6463/rpc?v=1",
+       Method = "POST",
+       Headers = {
+           ["Content-Type"] = "application/json",
+           ["origin"] = "https://discord.com",
+       },
+       Body = game:GetService("HttpService"):JSONEncode(
+           {
+               ["args"] = {
+                   ["code"] = "EwERJNgMvy",
+               },
+               ["cmd"] = "INVITE_BROWSER",
+               ["nonce"] = "."
+           })
+   })
