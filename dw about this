@@ -1,0 +1,34 @@
+--Bedwars
+if game.PlaceId == 6872265039 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua"))()
+end
+
+--The Survival Game
+if game.PlaceId == 11156779721 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ioanghisoiu/the-survival-game/main/test.txt?token=GHSAT0AAAAAACBT26W3YAFFAMESM3AYXBKEZCABQMQ"))()
+end
+
+--Build A Boat For Treasure
+if game.PlaceId == 537413528 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ioanghisoiu/desktop-tutorial/main/build%20a%20boat.lua?token=GHSAT0AAAAAACBT26W3HKLU7LIZQ6FBLMJGZCABZNA"))()
+end
+
+--Super Power Fighting Simulator
+if game.PlaceId == 2619187362 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ExtremeAntonis/Roblox-Scripts/main/Super-Power-Fighting-Simulator-Obfuscated.lua", true))()
+end
+
+--Blox Fruits
+if game.PlaceId == 2753915549 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperIkka/Main/main/BLCKHUB", true))()
+end
+
+--Ninja Legends
+if game.PlaceId == 3956818381 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded"))()
+end
+
+--Slap Battles
+if game.PlaceId == 6403373529 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/cheesynob39/R20-EXPLOITER/main/Slap_Battles.lua"))()
+end
