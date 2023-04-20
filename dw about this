@@ -40,9 +40,15 @@ end
 
 --Slap Battles
 if game.PlaceId == 6403373529 then
-    loadstring(game:HttpGet("https://github.com/ioanghisoiu/Slap-royale/blob/main/.gitattributes"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/cheesynob39/R20-EXPLOITER/main/Slap_Battles.lua"))()
 end
 --Slap royale
 if game.PlaceId == 9431156611 then
-    loadstring(game:HttpGet("https://github.com/ioanghisoiu/Slap-royale/blob/main/.gitattributes"))()
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/ioanghisoiu/c4ab5a6fe74b189226a887225f045d10/raw/67bc5f5660d87e849e4a67ada86586222cd6bd8b/gistfile1.txt"))()
+end
+
+--Clicker Mining Simulator
+if game.PlaceId == 9431156611 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MaGiXxScripter0/wheathub/main/main.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/itsnoctural/Destiny/main/loader.lua"))()
 end
