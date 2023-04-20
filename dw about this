@@ -23,6 +23,16 @@ if game.PlaceId == 2753915549 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperIkka/Main/main/BLCKHUB", true))()
 end
 
+--Blox Fruits Second Sea
+if game.PlaceId == 4442272183 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperIkka/Main/main/BLCKHUB", true))()
+end
+
+--Blox Fruits Third sea
+if game.PlaceId == 7449423635 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperIkka/Main/main/BLCKHUB", true))()
+end
+
 --Ninja Legends
 if game.PlaceId == 3956818381 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded"))()
@@ -30,5 +40,9 @@ end
 
 --Slap Battles
 if game.PlaceId == 6403373529 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/cheesynob39/R20-EXPLOITER/main/Slap_Battles.lua"))()
+    loadstring(game:HttpGet("https://github.com/ioanghisoiu/Slap-royale/blob/main/.gitattributes"))()
+end
+--Slap royale
+if game.PlaceId == 9431156611 then
+    loadstring(game:HttpGet("https://github.com/ioanghisoiu/Slap-royale/blob/main/.gitattributes"))()
 end
