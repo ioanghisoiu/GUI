@@ -48,7 +48,7 @@ if game.PlaceId == 9431156611 then
 end
 
 --Clicker Mining Simulator
-if game.PlaceId == 9431156611 then
+if game.PlaceId == 12701714080 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/MaGiXxScripter0/wheathub/main/main.lua"))()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/itsnoctural/Destiny/main/loader.lua"))()
 end
