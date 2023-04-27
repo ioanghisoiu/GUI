@@ -40,24 +40,30 @@ end
 
 --Slap Battles
 if game.PlaceId == 6403373529 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/cheesynob39/R20-EXPLOITER/main/Slap_Battles.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/cheesynob39/R2O/main/LOADSTRING.lua"))()
 end
+
 --Slap royale
 if game.PlaceId == 9431156611 then
-    loadstring(game:HttpGet("https://gist.githubusercontent.com/ioanghisoiu/c4ab5a6fe74b189226a887225f045d10/raw/67bc5f5660d87e849e4a67ada86586222cd6bd8b/gistfile1.txt"))()
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/ioanghisoiu/c4ab5a6fe74b189226a887225f045d10/raw/67bc5f5660d87e849e4a67ada86586222cd6bd8b/gistfile1.txt"))(
 end
 
---Clicker Mining Simulator
-if game.PlaceId == 12701714080 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/MaGiXxScripter0/wheathub/main/main.lua"))()
+--Slap Battles - Killstreak only
+if game.PlaceId == 11520107397 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/cheesynob39/R2O/main/LOADSTRING.lua"))(
 end
 
---Clicker Mining Simulator
-if game.PlaceId == 12701714080 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/itsnoctural/Destiny/main/loader.lua"))()
+--Slap Battles - NO ONESHOT GLOVES
+if game.PlaceId == 9015014224 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/cheesynob39/R2O/main/LOADSTRING.lua"))(
 end
 
 --Demon Soul Simulator
 if game.PlaceId == 8069117419 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TrustsenseDev/UnknownHub-V1/main/Loader.lua"))()
+end
+
+--Defender's Depot - Tower Defense
+if game.PlaceId == 4806026225 then
+    loadstring(game:HttpGet("https://pastebin.com/raw/AUyJnK2Z", true))()
 end
